@@ -2,6 +2,8 @@ module broker
 
 go 1.22.3
 
+require github.com/nileshdt/avgo369 v0.0.0-20240521191240-dc86aab41c47
+
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
 	github.com/andybalholm/brotli v1.0.5 // indirect
@@ -9,6 +11,7 @@ require (
 	github.com/go-chi/chi/v5 v5.0.12 // indirect
 	github.com/go-chi/cors v1.2.1 // indirect
 	github.com/go-playground/form/v4 v4.2.0 // indirect
+	github.com/golang/protobuf v1.5.0 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/flatbuffers v23.5.26+incompatible // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect

@@ -4,7 +4,6 @@ import (
 	"context"
 	"log"
 
-	// "github.com/nileshdt/pb/log"
 	"github.com/nileshdt/pb/logs"
 	pb "github.com/nileshdt/pb/logs"
 	"trpc.app.LogService/data"

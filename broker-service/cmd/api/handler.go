@@ -16,10 +16,10 @@ import (
 
 	// "google.golang.org/grpc/credentials/insecure"
 
+	pb "github.com/nileshdt/pb/logs"
 	_ "trpc.group/trpc-go/trpc-filter/debuglog"
 	trpc "trpc.group/trpc-go/trpc-go"
 	"trpc.group/trpc-go/trpc-go/client"
-	"github.com/nileshdt/pb/logs"
 	"trpc.group/trpc-go/trpc-go/log"
 )
 
