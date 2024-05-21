@@ -1,0 +1,282 @@
+2024-05-15 14:32:36.537	INFO	server/service.go:167	process:96914, trpc service:log.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 15:07:00.251	INFO	admin/admin.go:192	process:96914, admin server, closed
+2024-05-15 15:07:00.251	INFO	server/service.go:526	process:96914, trpc service:log.LogService, closing ...
+2024-05-15 15:07:01.251	INFO	server/service.go:546	process:96914, trpc service:log.LogService, closed
+2024-05-15 15:07:48.293	INFO	server/service.go:167	process:11351, trpc service:log.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 15:56:34.924	INFO	admin/admin.go:192	process:11351, admin server, closed
+2024-05-15 15:56:34.924	INFO	server/service.go:526	process:11351, trpc service:log.LogService, closing ...
+2024-05-15 15:56:35.924	INFO	server/service.go:546	process:11351, trpc service:log.LogService, closed
+2024-05-15 15:56:41.144	INFO	server/service.go:167	process:29708, trpc service:log.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 16:00:43.604	INFO	server/service.go:526	process:29708, trpc service:log.LogService, closing ...
+2024-05-15 16:00:43.604	INFO	admin/admin.go:192	process:29708, admin server, closed
+2024-05-15 16:00:44.604	INFO	server/service.go:546	process:29708, trpc service:log.LogService, closed
+2024-05-15 16:00:49.326	INFO	server/service.go:167	process:31796, trpc service:log.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 16:24:55.890	INFO	admin/admin.go:192	process:31796, admin server, closed
+2024-05-15 16:24:55.890	INFO	server/service.go:526	process:31796, trpc service:log.LogService, closing ...
+2024-05-15 16:24:56.890	INFO	server/service.go:546	process:31796, trpc service:log.LogService, closed
+2024-05-15 16:28:07.251	INFO	server/service.go:167	process:42967, trpc service:log.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 16:28:44.404	INFO	server/service.go:526	process:42967, trpc service:log.LogService, closing ...
+2024-05-15 16:28:44.404	INFO	admin/admin.go:192	process:42967, admin server, closed
+2024-05-15 16:28:45.404	INFO	server/service.go:546	process:42967, trpc service:log.LogService, closed
+2024-05-15 16:30:37.719	INFO	server/service.go:167	process:44160, trpc service:log.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 16:30:41.614	INFO	server/service.go:526	process:44160, trpc service:log.LogService, closing ...
+2024-05-15 16:30:41.614	INFO	admin/admin.go:192	process:44160, admin server, closed
+2024-05-15 16:30:42.615	INFO	server/service.go:546	process:44160, trpc service:log.LogService, closed
+2024-05-15 16:43:54.220	INFO	server/service.go:167	process:52153, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 20:32:11.905	INFO	server/service.go:526	process:52153, trpc service:logs.LogService, closing ...
+2024-05-15 20:32:11.905	INFO	admin/admin.go:192	process:52153, admin server, closed
+2024-05-15 20:32:12.905	INFO	server/service.go:546	process:52153, trpc service:logs.LogService, closed
+2024-05-15 20:32:16.686	INFO	server/service.go:167	process:36069, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 20:36:17.223	INFO	server/service.go:526	process:36069, trpc service:logs.LogService, closing ...
+2024-05-15 20:36:17.223	INFO	admin/admin.go:192	process:36069, admin server, closed
+2024-05-15 20:36:18.224	INFO	server/service.go:546	process:36069, trpc service:logs.LogService, closed
+2024-05-15 20:36:21.967	INFO	server/service.go:167	process:38171, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 20:47:26.904	INFO	server/service.go:526	process:38171, trpc service:logs.LogService, closing ...
+2024-05-15 20:47:26.904	INFO	admin/admin.go:192	process:38171, admin server, closed
+2024-05-15 20:47:27.905	INFO	server/service.go:546	process:38171, trpc service:logs.LogService, closed
+2024-05-15 20:47:31.581	INFO	server/service.go:167	process:43486, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 20:47:54.485	ERROR	recovery@v1.0.0/recovery.go:59	[PANIC]runtime error: invalid memory address or nil pointer dereference
+goroutine 68 [running]:
+trpc.group/trpc-go/trpc-filter/recovery.init.func1({0x64d31f8, 0xc0005041c0}, {0x63ba800, 0x6b20140})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:58 +0x65
+trpc.group/trpc-go/trpc-filter/recovery.ServerFilter.func1.1()
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:77 +0x67
+panic({0x63ba800?, 0x6b20140?})
+	/usr/local/Cellar/go/1.22.3/libexec/src/runtime/panic.go:770 +0x132
+go.mongodb.org/mongo-driver/mongo.newDatabase(0x0, {0x616ddf6, 0x4}, {0x0?, 0x1?, 0x1?})
+	/Users/nileshthingalaya/go/pkg/mod/go.mongodb.org/mongo-driver@v1.15.0/mongo/database.go:49 +0xcb
+go.mongodb.org/mongo-driver/mongo.(*Client).Database(...)
+	/Users/nileshthingalaya/go/pkg/mod/go.mongodb.org/mongo-driver@v1.15.0/mongo/client.go:649
+trpc.app.LogService/data.(*LogEntry).Insert(0xc00013c090?, {{0x0, 0x0}, {0xc0001301cb, 0x5}, {0xc0001301e0, 0x7}, {0x0, 0x0, 0x0}, ...})
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/data/models.go:37 +0x3c
+main.(*logServiceImpl).Log(0x6b23ad0?, {0x63a0980?, 0xc000056c00?}, 0xc000110c60)
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/log_service.go:26 +0x6c
+github.com/nileshdt/pb/logs.LogServiceService_Log_Handler.func1({0x64d31f8?, 0xc0005041c0?}, {0x644c700?, 0xc000110c60?})
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/stub/github.com/nileshdt/pb/logs/logs.trpc.go:33 +0xcb
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func1({0x64d31f8?, 0xc0005041c0?}, {0x644c700, 0xc000110c60})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:103 +0x6d
+trpc.group/trpc-go/trpc-go/server.mayConvert2FullLinkTimeout({0x64d31f8?, 0xc0005041c0?}, {0x644c700?, 0xc000110c60?}, 0x64deb08?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/full_link_timeout.go:30 +0x2b
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0x64d31f8?, 0xc0005041c0?}, {0x644c700?, 0xc000110c60?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-filter/recovery.ServerFilter.func1({0x64d31f8?, 0xc0005041c0?}, {0x644c700?, 0xc000110c60?}, 0x15?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:81 +0x9d
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0x64d31f8?, 0xc0005041c0?}, {0x644c700?, 0xc000110c60?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-filter/debuglog.ServerFilter.func1({0x64d31f8, 0xc0005041c0}, {0x644c700, 0xc000110c60}, 0xc00014a340)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/debuglog@v1.0.0/log.go:184 +0xda
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0x64d31f8?, 0xc0005041c0?}, {0x644c700?, 0xc000110c60?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter({0xc000112930, 0x3, 0x64d31f8?}, {0x64d31f8, 0xc0005041c0}, {0x644c700, 0xc000110c60}, 0xc000112948)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:121 +0x1a3
+github.com/nileshdt/pb/logs.LogServiceService_Log_Handler({0x63a0980, 0xc0000a4fc0}, {0x64d31f8, 0xc0005041c0}, 0xc000114730)
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/stub/github.com/nileshdt/pb/logs/logs.trpc.go:37 +0xed
+trpc.group/trpc-go/trpc-go/server.(*service).Register.func1({0x64d31f8?, 0xc0005041c0?}, 0x3b8b87c0?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/service.go:463 +0x39
+trpc.group/trpc-go/trpc-go/server.(*service).handle(0xc00037c440, {0x64d3150, 0xc00013c090}, {0x64e03e0, 0xc00014e008}, {0xc0001320bd, 0x15, 0x15})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/service.go:315 +0x35d
+trpc.group/trpc-go/trpc-go/server.(*service).Handle(0xc00037c440, {0x64d3150, 0xc00013c090}, {0xc00013
+
+2024-05-15 20:47:54.486	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:1.903891ms, to:127.0.0.1:8000, err:type:callee framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference
+2024-05-15 20:47:54.486	FATAL	client/main.go:23	err: type:callee framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference
+2024-05-15 20:47:54.486	ERROR	debuglog@v1.0.0/log.go:203	server request:/logs.LogService/Log, cost:529.583µs, from:127.0.0.1:57893, err:type:framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference, total timeout:998.964281ms
+2024-05-15 20:48:57.629	ERROR	recovery@v1.0.0/recovery.go:59	[PANIC]runtime error: invalid memory address or nil pointer dereference
+goroutine 84 [running]:
+trpc.group/trpc-go/trpc-filter/recovery.init.func1({0x64d31f8, 0xc00037a8c0}, {0x63ba800, 0x6b20140})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:58 +0x65
+trpc.group/trpc-go/trpc-filter/recovery.ServerFilter.func1.1()
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:77 +0x67
+panic({0x63ba800?, 0x6b20140?})
+	/usr/local/Cellar/go/1.22.3/libexec/src/runtime/panic.go:770 +0x132
+go.mongodb.org/mongo-driver/mongo.newDatabase(0x0, {0x616ddf6, 0x4}, {0x0?, 0x0?, 0x0?})
+	/Users/nileshthingalaya/go/pkg/mod/go.mongodb.org/mongo-driver@v1.15.0/mongo/database.go:49 +0xcb
+go.mongodb.org/mongo-driver/mongo.(*Client).Database(...)
+	/Users/nileshthingalaya/go/pkg/mod/go.mongodb.org/mongo-driver@v1.15.0/mongo/client.go:649
+trpc.app.LogService/data.(*LogEntry).Insert(0xc0003790b0?, {{0x0, 0x0}, {0xc00032f643, 0x5}, {0xc00032f648, 0x7}, {0x0, 0x0, 0x0}, ...})
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/data/models.go:37 +0x3c
+main.(*logServiceImpl).Log(0x6b23ad0?, {0x63a0980?, 0xc000056c00?}, 0xc0000a53e0)
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/log_service.go:26 +0x6c
+github.com/nileshdt/pb/logs.LogServiceService_Log_Handler.func1({0x64d31f8?, 0xc00037a8c0?}, {0x644c700?, 0xc0000a53e0?})
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/stub/github.com/nileshdt/pb/logs/logs.trpc.go:33 +0xcb
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func1({0x64d31f8?, 0xc00037a8c0?}, {0x644c700, 0xc0000a53e0})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:103 +0x6d
+trpc.group/trpc-go/trpc-go/server.mayConvert2FullLinkTimeout({0x64d31f8?, 0xc00037a8c0?}, {0x644c700?, 0xc0000a53e0?}, 0x0?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/full_link_timeout.go:30 +0x2b
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0x64d31f8?, 0xc00037a8c0?}, {0x644c700?, 0xc0000a53e0?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-filter/recovery.ServerFilter.func1({0x64d31f8?, 0xc00037a8c0?}, {0x644c700?, 0xc0000a53e0?}, 0x15?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:81 +0x9d
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0x64d31f8?, 0xc00037a8c0?}, {0x644c700?, 0xc0000a53e0?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-filter/debuglog.ServerFilter.func1({0x64d31f8, 0xc00037a8c0}, {0x644c700, 0xc0000a53e0}, 0xc00037c880)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/debuglog@v1.0.0/log.go:184 +0xda
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0x64d31f8?, 0xc00037a8c0?}, {0x644c700?, 0xc0000a53e0?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter({0xc000013d88, 0x3, 0x64d31f8?}, {0x64d31f8, 0xc00037a8c0}, {0x644c700, 0xc0000a53e0}, 0xc000013da0)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:121 +0x1a3
+github.com/nileshdt/pb/logs.LogServiceService_Log_Handler({0x63a0980, 0xc0000a4fc0}, {0x64d31f8, 0xc00037a8c0}, 0xc0005840f0)
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/stub/github.com/nileshdt/pb/logs/logs.trpc.go:37 +0xed
+trpc.group/trpc-go/trpc-go/server.(*service).Register.func1({0x64d31f8?, 0xc00037a8c0?}, 0x3b8b87c0?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/service.go:463 +0x39
+trpc.group/trpc-go/trpc-go/server.(*service).handle(0xc00037c440, {0x64d3150, 0xc0003790b0}, {0x64e03e0, 0xc000039688}, {0xc00004c58d, 0x15, 0x15})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/service.go:315 +0x35d
+trpc.group/trpc-go/trpc-go/server.(*service).Handle(0xc00037c440, {0x64d3150, 0xc0003790b0}, {0xc00004c540, 
+
+2024-05-15 20:48:57.630	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:1.97164ms, to:127.0.0.1:8000, err:type:callee framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference
+2024-05-15 20:48:57.630	FATAL	client/main.go:23	err: type:callee framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference
+2024-05-15 20:48:57.630	ERROR	debuglog@v1.0.0/log.go:203	server request:/logs.LogService/Log, cost:758.028µs, from:127.0.0.1:57899, err:type:framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference, total timeout:998.991129ms
+2024-05-15 20:50:55.362	ERROR	recovery@v1.0.0/recovery.go:59	[PANIC]runtime error: invalid memory address or nil pointer dereference
+goroutine 117 [running]:
+trpc.group/trpc-go/trpc-filter/recovery.init.func1({0x64d31f8, 0xc000480700}, {0x63ba800, 0x6b20140})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:58 +0x65
+trpc.group/trpc-go/trpc-filter/recovery.ServerFilter.func1.1()
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:77 +0x67
+panic({0x63ba800?, 0x6b20140?})
+	/usr/local/Cellar/go/1.22.3/libexec/src/runtime/panic.go:770 +0x132
+go.mongodb.org/mongo-driver/mongo.newDatabase(0x0, {0x616ddf6, 0x4}, {0x0?, 0x0?, 0x0?})
+	/Users/nileshthingalaya/go/pkg/mod/go.mongodb.org/mongo-driver@v1.15.0/mongo/database.go:49 +0xcb
+go.mongodb.org/mongo-driver/mongo.(*Client).Database(...)
+	/Users/nileshthingalaya/go/pkg/mod/go.mongodb.org/mongo-driver@v1.15.0/mongo/client.go:649
+trpc.app.LogService/data.(*LogEntry).Insert(0xc0003f0c30?, {{0x0, 0x0}, {0xc0003ee533, 0x5}, {0xc0003ee538, 0x7}, {0x0, 0x0, 0x0}, ...})
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/data/models.go:37 +0x3c
+main.(*logServiceImpl).Log(0x6b23ad0?, {0x63a0980?, 0xc000056c00?}, 0xc0003e09c0)
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/log_service.go:26 +0x6c
+github.com/nileshdt/pb/logs.LogServiceService_Log_Handler.func1({0x64d31f8?, 0xc000480700?}, {0x644c700?, 0xc0003e09c0?})
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/stub/github.com/nileshdt/pb/logs/logs.trpc.go:33 +0xcb
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func1({0x64d31f8?, 0xc000480700?}, {0x644c700, 0xc0003e09c0})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:103 +0x6d
+trpc.group/trpc-go/trpc-go/server.mayConvert2FullLinkTimeout({0x64d31f8?, 0xc000480700?}, {0x644c700?, 0xc0003e09c0?}, 0x0?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/full_link_timeout.go:30 +0x2b
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0x64d31f8?, 0xc000480700?}, {0x644c700?, 0xc0003e09c0?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-filter/recovery.ServerFilter.func1({0x64d31f8?, 0xc000480700?}, {0x644c700?, 0xc0003e09c0?}, 0x15?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:81 +0x9d
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0x64d31f8?, 0xc000480700?}, {0x644c700?, 0xc0003e09c0?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-filter/debuglog.ServerFilter.func1({0x64d31f8, 0xc000480700}, {0x644c700, 0xc0003e09c0}, 0xc0003febc0)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/debuglog@v1.0.0/log.go:184 +0xda
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0x64d31f8?, 0xc000480700?}, {0x644c700?, 0xc0003e09c0?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter({0xc00048f638, 0x3, 0x64d31f8?}, {0x64d31f8, 0xc000480700}, {0x644c700, 0xc0003e09c0}, 0xc00048f650)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:121 +0x1a3
+github.com/nileshdt/pb/logs.LogServiceService_Log_Handler({0x63a0980, 0xc0000a4fc0}, {0x64d31f8, 0xc000480700}, 0xc0003e5310)
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/stub/github.com/nileshdt/pb/logs/logs.trpc.go:37 +0xed
+trpc.group/trpc-go/trpc-go/server.(*service).Register.func1({0x64d31f8?, 0xc000480700?}, 0x3b8b87c0?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/service.go:463 +0x39
+trpc.group/trpc-go/trpc-go/server.(*service).handle(0xc00037c440, {0x64d3150, 0xc0003f0c30}, {0x64e03e0, 0xc00048a248}, {0xc00049204d, 0x15, 0x15})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/service.go:315 +0x35d
+trpc.group/trpc-go/trpc-go/server.(*service).Handle(0xc00037c440, {0x64d3150, 0xc0003f0c30}, {0xc000492000,
+
+2024-05-15 20:50:55.363	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:2.029947ms, to:127.0.0.1:8000, err:type:callee framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference
+2024-05-15 20:50:55.363	FATAL	client/main.go:23	err: type:callee framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference
+2024-05-15 20:50:55.363	ERROR	debuglog@v1.0.0/log.go:203	server request:/logs.LogService/Log, cost:710.35µs, from:127.0.0.1:57909, err:type:framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference, total timeout:998.988677ms
+2024-05-15 20:53:06.265	INFO	server/service.go:526	process:43486, trpc service:logs.LogService, closing ...
+2024-05-15 20:53:06.265	INFO	admin/admin.go:192	process:43486, admin server, closed
+2024-05-15 20:53:07.266	INFO	server/service.go:546	process:43486, trpc service:logs.LogService, closed
+2024-05-15 20:53:12.128	INFO	server/service.go:167	process:46035, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 20:54:09.726	INFO	server/service.go:526	process:46035, trpc service:logs.LogService, closing ...
+2024-05-15 20:54:09.726	INFO	admin/admin.go:192	process:46035, admin server, closed
+2024-05-15 20:54:10.727	INFO	server/service.go:546	process:46035, trpc service:logs.LogService, closed
+2024-05-15 20:54:50.635	INFO	server/service.go:167	process:46868, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 20:56:04.573	INFO	server/service.go:526	process:46868, trpc service:logs.LogService, closing ...
+2024-05-15 20:56:04.573	INFO	admin/admin.go:192	process:46868, admin server, closed
+2024-05-15 20:56:05.575	INFO	server/service.go:546	process:46868, trpc service:logs.LogService, closed
+2024-05-15 20:56:08.214	INFO	server/service.go:167	process:47500, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 20:56:14.255	ERROR	recovery@v1.0.0/recovery.go:59	[PANIC]runtime error: invalid memory address or nil pointer dereference
+goroutine 83 [running]:
+trpc.group/trpc-go/trpc-filter/recovery.init.func1({0xb71a1f8, 0xc00055a1c0}, {0xb601800, 0xbd67140})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:58 +0x65
+trpc.group/trpc-go/trpc-filter/recovery.ServerFilter.func1.1()
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:77 +0x67
+panic({0xb601800?, 0xbd67140?})
+	/usr/local/Cellar/go/1.22.3/libexec/src/runtime/panic.go:770 +0x132
+go.mongodb.org/mongo-driver/mongo.newDatabase(0x0, {0xb3b4016, 0x4}, {0x0?, 0xc000539550?, 0xac81838?})
+	/Users/nileshthingalaya/go/pkg/mod/go.mongodb.org/mongo-driver@v1.15.0/mongo/database.go:49 +0xcb
+go.mongodb.org/mongo-driver/mongo.(*Client).Database(...)
+	/Users/nileshthingalaya/go/pkg/mod/go.mongodb.org/mongo-driver@v1.15.0/mongo/client.go:649
+trpc.app.LogService/data.(*LogEntry).Insert(0xc00050c240?, {{0x0, 0x0}, {0xc00053015b, 0x5}, {0xc000530170, 0x7}, {0x0, 0x0, 0x0}, ...})
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/data/models.go:37 +0x3c
+main.(*logServiceImpl).Log(0xc0000a4fc0, {0xb5e7980?, 0xc000056c00?}, 0xc000500840)
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/log_service.go:27 +0x218
+github.com/nileshdt/pb/logs.LogServiceService_Log_Handler.func1({0xb71a1f8?, 0xc00055a1c0?}, {0xb693700?, 0xc000500840?})
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/stub/github.com/nileshdt/pb/logs/logs.trpc.go:33 +0xcb
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func1({0xb71a1f8?, 0xc00055a1c0?}, {0xb693700, 0xc000500840})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:103 +0x6d
+trpc.group/trpc-go/trpc-go/server.mayConvert2FullLinkTimeout({0xb71a1f8?, 0xc00055a1c0?}, {0xb693700?, 0xc000500840?}, 0xb725b08?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/full_link_timeout.go:30 +0x2b
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0xb71a1f8?, 0xc00055a1c0?}, {0xb693700?, 0xc000500840?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-filter/recovery.ServerFilter.func1({0xb71a1f8?, 0xc00055a1c0?}, {0xb693700?, 0xc000500840?}, 0x15?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/recovery@v1.0.0/recovery.go:81 +0x9d
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0xb71a1f8?, 0xc00055a1c0?}, {0xb693700?, 0xc000500840?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-filter/debuglog.ServerFilter.func1({0xb71a1f8, 0xc00055a1c0}, {0xb693700, 0xc000500840}, 0xc00051e300)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-filter/debuglog@v1.0.0/log.go:184 +0xda
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter.func2({0xb71a1f8?, 0xc00055a1c0?}, {0xb693700?, 0xc000500840?})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:117 +0x123
+trpc.group/trpc-go/trpc-go/filter.ServerChain.Filter({0xc0005024e0, 0x3, 0xb71a1f8?}, {0xb71a1f8, 0xc00055a1c0}, {0xb693700, 0xc000500840}, 0xc0005024f8)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/filter/filter.go:121 +0x1a3
+github.com/nileshdt/pb/logs.LogServiceService_Log_Handler({0xb5e7980, 0xc0000a4fc0}, {0xb71a1f8, 0xc00055a1c0}, 0xc0005045f0)
+	/Users/nileshthingalaya/Go/src/github.com/nileshdt/avbeta/log-service/stub/github.com/nileshdt/pb/logs/logs.trpc.go:37 +0xed
+trpc.group/trpc-go/trpc-go/server.(*service).Register.func1({0xb71a1f8?, 0xc00055a1c0?}, 0x3b8b87c0?)
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/service.go:463 +0x39
+trpc.group/trpc-go/trpc-go/server.(*service).handle(0xc000400440, {0xb71a150, 0xc000520030}, {0xb7273e0, 0xc000522008}, {0xc00051804d, 0x15, 0x15})
+	/Users/nileshthingalaya/go/pkg/mod/trpc.group/trpc-go/trpc-go@v1.0.2/server/service.go:315 +0x35d
+trpc.group/trpc-go/trpc-go/server.(*service).Handle(0xc000400440, {0xb71a150, 0xc000
+
+2024-05-15 20:56:14.256	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:2.703572ms, to:127.0.0.1:8000, err:type:callee framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference
+2024-05-15 20:56:14.256	FATAL	client/main.go:23	err: type:callee framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference
+2024-05-15 20:56:14.256	ERROR	debuglog@v1.0.0/log.go:203	server request:/logs.LogService/Log, cost:736.506µs, from:127.0.0.1:57947, err:type:framework, code:31, msg:runtime error: invalid memory address or nil pointer dereference, total timeout:998.937561ms
+2024-05-15 21:15:48.052	INFO	server/service.go:526	process:47500, trpc service:logs.LogService, closing ...
+2024-05-15 21:15:48.052	INFO	admin/admin.go:192	process:47500, admin server, closed
+2024-05-15 21:15:49.053	INFO	server/service.go:546	process:47500, trpc service:logs.LogService, closed
+2024-05-15 21:25:37.308	INFO	server/service.go:167	process:59144, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 21:25:44.484	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:1.000954205s, to:127.0.0.1:8000, err:type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:58132->127.0.0.1:8000: i/o timeout, cost:1.000845941s
+2024-05-15 21:25:44.484	FATAL	client/main.go:23	err: type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:58132->127.0.0.1:8000: i/o timeout, cost:1.000845941s
+2024-05-15 21:26:13.486	ERROR	debuglog@v1.0.0/log.go:203	server request:/logs.LogService/Log, cost:30.001493461s, from:127.0.0.1:58132, err:server selection error: server selection timeout, current topology: { Type: Unknown, Servers: [{ Addr: mongo:27017, Type: Unknown, Last error: dial tcp: lookup mongo: no such host }, ] }, total timeout:998.955417ms
+2024-05-15 21:26:52.140	INFO	server/service.go:526	process:59144, trpc service:logs.LogService, closing ...
+2024-05-15 21:26:52.140	INFO	admin/admin.go:192	process:59144, admin server, closed
+2024-05-15 21:26:53.140	INFO	server/service.go:546	process:59144, trpc service:logs.LogService, closed
+2024-05-15 21:26:57.099	INFO	server/service.go:167	process:59707, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 21:27:22.227	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:1.000471269s, to:127.0.0.1:8000, err:type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:58142->127.0.0.1:8000: i/o timeout, cost:1.000415132s
+2024-05-15 21:27:22.227	FATAL	client/main.go:23	err: type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:58142->127.0.0.1:8000: i/o timeout, cost:1.000415132s
+2024-05-15 21:27:51.229	ERROR	debuglog@v1.0.0/log.go:203	server request:/logs.LogService/Log, cost:30.000569304s, from:127.0.0.1:58142, err:server selection error: server selection timeout, current topology: { Type: Unknown, Servers: [{ Addr: mongo:27017, Type: Unknown, Last error: dial tcp: lookup mongo: no such host }, ] }, total timeout:998.964515ms
+2024-05-15 21:32:50.720	INFO	admin/admin.go:192	process:59707, admin server, closed
+2024-05-15 21:32:50.720	INFO	server/service.go:526	process:59707, trpc service:logs.LogService, closing ...
+2024-05-15 21:32:51.720	INFO	server/service.go:546	process:59707, trpc service:logs.LogService, closed
+2024-05-15 21:33:36.081	INFO	server/service.go:167	process:62401, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 21:35:55.505	INFO	server/service.go:526	process:62401, trpc service:logs.LogService, closing ...
+2024-05-15 21:35:55.505	INFO	admin/admin.go:192	process:62401, admin server, closed
+2024-05-15 21:35:56.505	INFO	server/service.go:546	process:62401, trpc service:logs.LogService, closed
+2024-05-15 21:35:59.928	INFO	server/service.go:167	process:63567, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-15 21:36:06.370	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:1.00035944s, to:127.0.0.1:8000, err:type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:58214->127.0.0.1:8000: i/o timeout, cost:1.000299253s
+2024-05-15 21:36:06.370	FATAL	client/main.go:23	err: type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:58214->127.0.0.1:8000: i/o timeout, cost:1.000299253s
+2024-05-15 21:36:35.372	ERROR	debuglog@v1.0.0/log.go:203	server request:/logs.LogService/Log, cost:30.001025941s, from:127.0.0.1:58214, err:server selection error: server selection timeout, current topology: { Type: Unknown, Servers: [{ Addr: mongo:27017, Type: Unknown, Last error: dial tcp: lookup mongo: no such host }, ] }, total timeout:998.965086ms
+2024-05-15 21:38:03.438	INFO	admin/admin.go:192	process:63567, admin server, closed
+2024-05-15 21:38:03.438	INFO	server/service.go:526	process:63567, trpc service:logs.LogService, closing ...
+2024-05-15 21:38:04.439	INFO	server/service.go:546	process:63567, trpc service:logs.LogService, closed
+2024-05-15 21:38:07.474	INFO	server/service.go:167	process:64507, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-20 15:18:21.856	INFO	server/service.go:167	process:92472, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-21 10:34:53.435	INFO	admin/admin.go:192	process:92472, admin server, closed
+2024-05-21 10:34:53.434	INFO	server/service.go:526	process:92472, trpc service:logs.LogService, closing ...
+2024-05-21 10:34:54.439	INFO	server/service.go:546	process:92472, trpc service:logs.LogService, closed
+2024-05-21 14:00:22.195	INFO	server/service.go:167	process:96813, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-21 14:01:38.521	INFO	admin/admin.go:192	process:96813, admin server, closed
+2024-05-21 14:01:38.521	INFO	server/service.go:526	process:96813, trpc service:logs.LogService, closing ...
+2024-05-21 14:01:39.521	INFO	server/service.go:546	process:96813, trpc service:logs.LogService, closed
+2024-05-21 14:34:22.682	INFO	server/service.go:167	process:10681, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-21 14:35:00.035	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:1.000451871s, to:127.0.0.1:8000, err:type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:64659->127.0.0.1:8000: i/o timeout, cost:1.000377289s
+2024-05-21 14:35:00.035	FATAL	client/main.go:23	err: type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:64659->127.0.0.1:8000: i/o timeout, cost:1.000377289s
+2024-05-21 14:35:29.036	ERROR	debuglog@v1.0.0/log.go:203	server request:/logs.LogService/Log, cost:30.001056257s, from:127.0.0.1:64659, err:server selection error: server selection timeout, current topology: { Type: Unknown, Servers: [{ Addr: localhost:27017, Type: Unknown, Last error: dial tcp 127.0.0.1:27017: connect: connection refused }, ] }, total timeout:998.96063ms
+2024-05-21 14:35:32.149	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:1.000403383s, to:127.0.0.1:8000, err:type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:64793->127.0.0.1:8000: i/o timeout, cost:1.000290789s
+2024-05-21 14:35:32.149	FATAL	client/main.go:23	err: type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:64793->127.0.0.1:8000: i/o timeout, cost:1.000290789s
+2024-05-21 14:35:46.373	INFO	server/service.go:526	process:10681, trpc service:logs.LogService, closing ...
+2024-05-21 14:35:46.373	INFO	admin/admin.go:192	process:10681, admin server, closed
+2024-05-21 14:35:47.374	INFO	server/service.go:546	process:10681, trpc service:logs.LogService, closed
+2024-05-21 14:35:50.995	INFO	server/service.go:167	process:11380, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-21 14:45:39.318	ERROR	debuglog@v1.0.0/log.go:240	client request:/logs.LogService/Log, cost:1.00074162s, to:127.0.0.1:8000, err:type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:65195->127.0.0.1:8000: i/o timeout, cost:1.000671307s
+2024-05-21 14:45:39.318	FATAL	client/main.go:23	err: type:framework, code:101, msg:tcp client transport ReadFrame: read tcp 127.0.0.1:65195->127.0.0.1:8000: i/o timeout, cost:1.000671307s
+2024-05-21 14:59:47.470	INFO	server/service.go:167	process:22541, trpc service:logs.LogService launch success, tcp:127.0.0.1:8000, serving ...
+2024-05-21 15:07:11.806	INFO	server/service.go:526	process:22541, trpc service:logs.LogService, closing ...
+2024-05-21 15:07:11.806	INFO	admin/admin.go:192	process:22541, admin server, closed
+2024-05-21 15:07:12.807	INFO	server/service.go:546	process:22541, trpc service:logs.LogService, closed

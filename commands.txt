@@ -1,0 +1,8 @@
+trpc create -p pb/broker.proto -o log-service 
+
+trpc create -p pb/log.proto -o log-service 
+
+server
+go run .
+client
+go run cmd/client/main.go

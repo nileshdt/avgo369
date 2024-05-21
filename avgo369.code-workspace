@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "broker-service"
+		},
+		{
+			"path": "log-service"
+		},
+		{
+			"path": "project"
+		},
+		{
+			"path": "pb"
+		}
+	],
+	"settings": {}
+}
